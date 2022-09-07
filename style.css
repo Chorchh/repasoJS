@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.success {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}

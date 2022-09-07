@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/e81d14ea7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Repaso JS</title>
+  </head>
+  <body>
+    <navbar class="navbar">
+      <div>
+        <img
+          src="./img/png-clipart-batman-logo-illustration-batman-logo-superhero-graphy-logo-heroes-leaf.png"
+          alt="logo" class="logo"
+        />
+      </div>
+      <label for="toggle-menu"></label> <i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="toggle-menu">
+      <ul class="lista" id="lista">
+        <li><a href="#">inicio</a></li>
+        <li><a href="#">nosotros</a></li>
+        <li><a href="#">productos</a></li>
+        <li><a href="#">contacto</a></li>
+      </ul>
+    </navbar>
+    <form id="form">
+        <p>Ejercicio 2</p>
+        <input type="email" placeholder="ingresa tu email" id="email" autocomplete="off">
+        <small class="msgEmail"></small>
+        <input type="text" placeholder="ingresa tu contraseña" id="password" >
+        <small class="msgPass"></small>
+    <input type="submit" class="ingresar">
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
