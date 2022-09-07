@@ -17,10 +17,14 @@ ul {
     display: block;
 }
 
-.success {
-    background-color: green;
+
+hr {
+    border: 2px solid orange;
+    margin: 40px;
 }
 
-.error {
-    background-color: red;
+.lista {
+    display: block;
+    font-size: 20px;
+    color: black;
 }
