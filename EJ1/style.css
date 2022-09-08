@@ -16,15 +16,3 @@ ul {
 .mostrar {
     display: block;
 }
-
-
-hr {
-    border: 2px solid orange;
-    margin: 40px;
-}
-
-.lista {
-    display: block;
-    font-size: 20px;
-    color: black;
-}
